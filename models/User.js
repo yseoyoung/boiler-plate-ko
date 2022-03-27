@@ -35,4 +35,4 @@ const userSchema = mongoose.Schema({
 const User = mongoose.model('User', userSchema)
 
 // 다른 패키지에서도 사용할 수 있도록
-module.exports = {User}
+module.exports = { User }
